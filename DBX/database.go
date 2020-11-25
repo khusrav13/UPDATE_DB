@@ -69,7 +69,7 @@ func AddClient(db *sql.DB, client moduls.Users) (err error){
 	return err
 }
 
-/////////////////Imagine you have ID 2 and you want to change Name and Surname. Below We can Change Name and Surname ID 2
+/////////////////Imagine you have ID 2 and you want to change information. Below we can change information about ID 2
 func UpdateClient(db *sql.DB, client moduls.Users) (err error) {
 	_, err = db.Exec(`UPDATE users SET (Name, Surname,Age, Sex) = (($1), ($2),($3), ($4)) WHERE ID = 2`, client.Name, client.Surname, client.Age, client.Sex)
 	if err != nil {
