@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e4c5cd7-c58e-492f-9448-0017831f795e" name="Default Changelist" comment="" />
+    <list default="true" id="0e4c5cd7-c58e-492f-9448-0017831f795e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/67ef3ba1-0375-414c-9927-932f27467609.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank" beforeDir="false" afterPath="$PROJECT_DIR$/Bank" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DBX/database.go" beforeDir="false" afterPath="$PROJECT_DIR$/DBX/database.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduls/accounts.go" beforeDir="false" afterPath="$PROJECT_DIR$/moduls/accounts.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +23,9 @@
     </option>
   </component>
   <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1klicphtdS0DYmPcRVDvvOLMdM7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,7 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -54,21 +64,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="550" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1606282409544" />
-    <state width="637" height="178" key="GridCell.Tab.0.bottom" timestamp="1606286412745">
+    <state width="1323" height="178" key="GridCell.Tab.0.bottom" timestamp="1606487232484">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606286412745" />
-    <state width="637" height="178" key="GridCell.Tab.0.center" timestamp="1606286412745">
+    <state width="1323" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606487232484" />
+    <state width="1323" height="178" key="GridCell.Tab.0.center" timestamp="1606487232484">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606286412745" />
-    <state width="637" height="178" key="GridCell.Tab.0.left" timestamp="1606286412745">
+    <state width="1323" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606487232484" />
+    <state width="1323" height="178" key="GridCell.Tab.0.left" timestamp="1606487232484">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606286412745" />
-    <state width="637" height="178" key="GridCell.Tab.0.right" timestamp="1606286412745">
+    <state width="1323" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606487232484" />
+    <state width="1323" height="178" key="GridCell.Tab.0.right" timestamp="1606487232484">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="637" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606286412745" />
+    <state width="1323" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606487232484" />
   </component>
 </project>

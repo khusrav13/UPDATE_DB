@@ -92,3 +92,13 @@ func UpdateRemove(db *sql.DB) (err error) {
 
 
 
+////Last Commit///
+
+func AddAccount(db *sql.DB, client moduls.Accounts) (err error) {
+	_, err = db.Exec(`INSERT INTO accounts (ID, UserID,Number,Amount, Currency) VALUES (($1), ($2),($3), ($4), ($5)) `, client.ID, client.UserID, client.Number ,client.Amount,client.Currency)
+	if err != nil {
+		fmt.Println("ERROR. CANNOT ADD TRY AGAIN", err)
+		return err
+	}
+	return err
+}

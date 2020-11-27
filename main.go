@@ -55,6 +55,18 @@ func main() {
 	}
 
 
+	AddingToAccount := moduls.Accounts{
+		ID:       1,
+		UserID:   20,
+		Number:   3212,
+		Amount:   523,
+		Currency: 3,
+	}
+	err = DBX.AddAccount(data, AddingToAccount)
+		if err != nil {
+			log.Fatal("Error. Please try again", err)
+		}
+
 }
 
 
